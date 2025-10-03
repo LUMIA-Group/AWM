@@ -9,7 +9,7 @@ Our method leverages the Linear Assignment Problem (LAP) and an unbiased Centere
 
 ```
 ├── checkpoints/            # Default directory for storing model checkpoints
-├── asset/ # Asset files (e.g., icons)
+├── asset/                  # Asset files (e.g., icons)
 ├── main.py                 # Main script to run experiments
 ├── similarity_metrics.py   # Core functions for CKA, weight loading, and LAP alignment
 ├── configs.py              # Experiment configurations (model paths, comparison pairs)
