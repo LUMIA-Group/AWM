@@ -248,7 +248,7 @@ def main():
         formatter_class=argparse.RawTextHelpFormatter
     )
 
-    group = parser.add_mutually_exclusive_group()
+    group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument(
         "--config", 
         choices=list(AVAILABLE_CONFIGS.keys()),
@@ -258,7 +258,6 @@ def main():
         "--model_paths",
         nargs=2,
         metavar=("MODEL1_PATH", "MODEL2_PATH"),
-        default=["/data0/byzeng/checkpoint/Qwen-7B","/data0/byzeng/checkpoint/OLMo-7B"],
         help="Run a quick comparison between two local model directories."
     )
 
