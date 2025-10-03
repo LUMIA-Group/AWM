@@ -8,7 +8,6 @@ Usage:
 
 import argparse
 import torch
-import matplotlib.pyplot as plt
 import os
 import numpy as np
 from scipy.optimize import linear_sum_assignment
@@ -259,10 +258,10 @@ def main():
         "--model_paths",
         nargs=2,
         metavar=("MODEL1_PATH", "MODEL2_PATH"),
-        default=["/home/byzeng/HuRef/checkpoints/pangu","/home/byzeng/HuRef/checkpoints/qwen2.5_14b"],
+        default=["/data0/byzeng/checkpoint/Qwen-7B","/data0/byzeng/checkpoint/OLMo-7B"],
         help="Run a quick comparison between two local model directories."
     )
-    
+
     parser.add_argument(
         "--device",
         default="auto",
