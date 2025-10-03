@@ -1,4 +1,4 @@
-# AWM <img src="figures/awm-icon.png" width="40" style="vertical-align: middle;">: Accurate Weight-Matrix Fingerprint for Large Language Models
+# AWM <img src="asset/awm-icon.png" width="40" style="vertical-align: middle;">: Accurate Weight-Matrix Fingerprint for Large Language Models
 
 This repository contains the official implementation for the paper "[AWM: Accurate Weight-Matrix Fingerprint for Large Language Models](https://arxiv.org/abs/2405.XXXXX)". AWM is a training-free fingerprinting method to determine if a Large Language Model (LLM) is derived from another base model.
 
