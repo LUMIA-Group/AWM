@@ -7,7 +7,8 @@ Our method leverages the Linear Assignment Problem (LAP) and an unbiased Centere
 
 ## Project Structure
 
-```
+├── checkpoints/ # Default directory for storing model checkpoints
+├── asset/ # Asset files (e.g., icons)
 ├── main.py         # Main script to run experiments
 ├── similarity_metrics.py   # Core functions for CKA, weight loading, and LAP alignment
 ├── configs.py              # Experiment configurations (model paths, comparison pairs)
@@ -32,7 +33,7 @@ Our method leverages the Linear Assignment Problem (LAP) and an unbiased Centere
 
 ## Quick Start: Comparing Two Models
 
-1.  **Download Models**: Use `huggingface-cli` to download the two models you want to compare. For example, Llama-2-7B and CodeLlama-7b.
+1.  **Download Models**: Use `huggingface-cli` to download the two models you want to compare into the `checkpoints` directory. For example, to compare Llama-2-7B and CodeLlama-7b:
     ```bash
     huggingface-cli download meta-llama/Llama-2-7b --local-dir ./checkpoints/Llama-2-7b
     huggingface-cli download codellama/CodeLlama-7b-hf --local-dir ./checkpoints/CodeLlama-7b-hf
