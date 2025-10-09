@@ -103,6 +103,6 @@ If you find our work useful, please consider citing our paper:
   title={{AWM: Accurate Weight-Matrix Fingerprint for Large Language Models}},
   author={Boyi Zeng and Lin Chen and Ziwei He and Xinbing Wang and Zhouhan Lin},
   year={2025},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv:2510.06738},  
 }
 ```
