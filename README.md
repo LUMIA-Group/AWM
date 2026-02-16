@@ -82,7 +82,7 @@ Absolute Z-score measures how many standard deviations a positive-pair similarit
 
 We further show that our method produces substantially larger absolute Z-scores than prior baselines. Across SFT, CPT, MoE upcycling, multimodal tuning, RL post-training, and pruning settings, we consistently achieve the strongest separation margins between correlated and independent pairs.
 
-| Training Method | Base | Offspring | HuRef | REEF | Ours |
+| Training Method | Base | Offspring | [HuRef](https://arxiv.org/abs/2312.04828) | [REEF](https://arxiv.org/abs/2410.14273) | Ours |
 | - | - | - | -: | -: | -: |
 | SFT | Llama2-7B | [vicuna-7b-v1.5](https://huggingface.co/lmsys/vicuna-7b-v1.5) | 44.22 | 1.95 | **355.09** |
 |  | Llama2-7B | [llama-2-7b-finance](https://huggingface.co/Abira1/llama-2-7b-finance) | 44.20 | 1.94 | **355.02** |
