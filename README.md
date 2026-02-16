@@ -70,7 +70,11 @@ For more detailed results, please refer to the paper.
 We show that our method consistently separates correlated model pairs from independent pairs across thresholds.  
 In the low-false-positive region, our ROC curves stay higher and achieve larger partial AUC (pAUC), indicating stronger practical fingerprint verification performance.
 
-[![ROC Curves with Real pAUC](./asset/roc_curves_with_real_pauc.png)](./asset/roc_curves_with_real_pauc.pdf)
+<p align="center">
+  <a href="./asset/roc_curves_with_real_pauc.pdf">
+    <img src="./asset/roc_curves_with_real_pauc.png" alt="ROC Curves with Real pAUC" width="560" />
+  </a>
+</p>
 
 ### Absolute Z-score Table for correlated models
 
