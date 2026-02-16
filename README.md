@@ -26,6 +26,7 @@
   <img src="https://img.shields.io/badge/Method-Training--Free-2f855a?style=flat-square" alt="Training Free">
 </p>
 This repository contains the official implementation for the paper "[AWM: Accurate Weight-Matrix Fingerprint for Large Language Models](https://arxiv.org/abs/2510.06738)"
+
 `AWM` is a fingerprinting method to determine whether one large language model (LLM) is derived from another base model. The method combines Linear Assignment Problem (LAP) based dimension alignment with unbiased CKA on attention weights, and is robust to common post-training changes.
 
 ## News
@@ -37,7 +38,7 @@ This repository contains the official implementation for the paper "[AWM: Accura
 | Feature Category | AWM Capability |
 | - | - |
 | **Goal** | Independency test of open-source LLMs based on their weights |
-| **Method** | 1️⃣ LAP-based alignment <br> 2️⃣ Unbiased CKA (UCKA) |
+| **Method** | 1️⃣ Linear-Assignment-Problem-based (LAP-based) alignment <br> 2️⃣ Unbiased Central Kernel Alignment (UCKA) |
 |**Detectable Weights**| ✅ Attention weights <br>✅ (informal) FFN weights|
 | **Computation Cost** | ✅ Training-free <br> ✅ ~30s/pair on one RTX3090|
 | **Accuracy** | ✅~0 similarity scores for independent models <br> ✅High similarity scores for correlated models|
