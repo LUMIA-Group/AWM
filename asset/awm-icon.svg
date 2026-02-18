@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AWM icon">
+  <defs>
+    <linearGradient id="bg" x1="96" y1="64" x2="416" y2="448" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="55%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#0891B2"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <circle cx="256" cy="256" r="228" fill="url(#bg)" filter="url(#softShadow)"/>
+  <circle cx="256" cy="256" r="236" fill="none" stroke="#0B1220" stroke-opacity="0.35" stroke-width="14"/>
+  <circle cx="256" cy="256" r="236" fill="none" stroke="#FFFFFF" stroke-opacity="0.82" stroke-width="5"/>
+
+  <path d="M130 350 L182 164 L234 350 M152 274 H212" fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M258 164 L284 350 L312 236 L340 350 L366 164" fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M90 106 C138 74, 178 74, 226 106" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="9" stroke-linecap="round"/>
+  <path d="M286 106 C334 74, 374 74, 422 106" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="9" stroke-linecap="round"/>
+</svg>
