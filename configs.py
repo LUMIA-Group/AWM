@@ -414,6 +414,10 @@ MODEL_HF_MAP = {
     "Sheared-LLaMA-2.7B-Pruned": "princeton-nlp/Sheared-LLaMA-2.7B-Pruned",
     "Sheared-LLaMA-1.3B-ShareGPT": "princeton-nlp/Sheared-LLaMA-1.3B-ShareGPT",
     "Sheared-LLaMA-2.7B-ShareGPT": "princeton-nlp/Sheared-LLaMA-2.7B-ShareGPT",
+
+    #pangu vs qwen
+    "Pangu": "IntervitensInc/pangu-pro-moe-model",
+    "Qwen2.5-14B": "Qwen/Qwen2.5-14B",
 }
 
 # All available configurations, mapped to their experiment names.
